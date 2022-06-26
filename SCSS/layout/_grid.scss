@@ -25,5 +25,10 @@
 
   &__sidebar {
     background-color: hsl(300, 96%, 26%);
+    text-align: center;
+
+    @include util.breakpoint-down(medium) {
+      text-align: left;
+    }
   }
 }
